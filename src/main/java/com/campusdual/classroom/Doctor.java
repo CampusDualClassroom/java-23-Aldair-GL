@@ -17,4 +17,7 @@ public class Doctor extends Person {
 		this.specialization = specialization;
 	}
 
+	public void getDetails() {
+		System.out.println("Nombre completo: " + name + " " + surname+", Especialidad: "+this.specialization);
+	}
 }

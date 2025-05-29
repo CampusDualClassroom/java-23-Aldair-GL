@@ -16,4 +16,11 @@ public class PoliceOfficer extends Person {
 	public void setSquad(String squad) {
 		this.squad = squad;
 	}
+
+	public void getDetails() {
+		System.out.println("Nombre completo: " + name + " " + surname+", Squad: "+this.squad);
+	}
+
 }
+
+
